@@ -7,12 +7,14 @@ echo -----------------------------
 echo 1. Troll Prank
 echo 2. Pick up the earth
 echo 3. iFly
+echo 4. Fly
 echo -----------------------------
 set /p troll=
 
 if "%troll%" == "1" goto prank
 if "%troll%" == "2" goto earth
 if "%troll%" == "3" goto ifly
+if "%troll%" == "4" goto fly
 
 cls
 goto start
@@ -89,5 +91,27 @@ timeout /t 3 /nobreak >Nul
 cls
 echo Problem Airports?
 timeout /t 5 /nobreak >Nul
+cls
+goto start
+
+:fly
+cls
+echo Oil floats on water
+timeout /t 3 /nobreak >Nul
+cls
+echo Sike bitch you thought i will say cover yourself in oil
+timeout /t 3 /nobreak >Nul
+cls
+echo STEP 1: COVER YOURSELF IN RICK ROLL
+timeout /t 3 /nobreak >Nul
+start "" https://www.youtube.com/watch?v=dQw4w9WgXcQ
+cls
+echo STEP 2: COVER YOURSELF IN RICK ROLL
+timeout /t 3 /nobreak >Nul
+start "" https://www.youtube.com/watch?v=dQw4w9WgXcQ
+cls
+echo STEP 3: COVER YOURSELF IN RICK ROLL
+timeout /t 3 /nobreak >Nul
+start "" https://www.youtube.com/watch?v=dQw4w9WgXcQ
 cls
 goto start
